@@ -14,6 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if ($password == $row['password']) {
                 session_start();
                 $_SESSION['nama'] = $username;
+                print_r($_SESSION['nama']);
                 header("Location: home.php");
                 exit();
             } else {

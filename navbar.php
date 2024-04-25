@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -10,7 +13,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="home.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="artikel.php">Artikel</a>
@@ -24,6 +27,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="klien.php">Klien Kami</a>
                     </li>
+                    <?php if (empty($_SESSION['nama'])) { ?>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Login
@@ -37,6 +41,18 @@
                             </li>
                         </ul>
                     </li>
+                    <?php } else { ?>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <?=($_SESSION['nama'])?>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="logout.php">Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>

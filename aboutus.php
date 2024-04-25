@@ -38,12 +38,11 @@
             <div class="col-md-3">
                 <div class="sidebar">
                     <ul>
-                        <li><a href="#tentang-kami">Profile</a></li>
-                        <li><a href="#sejarah">Visi dan Misi</a></li>
-                        <li><a href="#bidang-usaha">Produk Kami</a></li>
-                        <li><a href="#sejarah">Kontak Kami</a></li>
-                        <li><a href="#bidang-usaha">About Us</a></li>
-                        <!-- Tambahkan daftar menu lainnya jika diperlukan -->
+                    <li><a href="Profile.php">Profile</a></li>
+                        <li><a href="visimisi.php">Visi dan Misi</a></li>
+                        <li><a href="produk.php">Produk Kami</a></li>
+                        <li><a href="kontak.php">Kontak Kami</a></li>
+                        <li><a href="aboutus.php">About Us</a></li>
                     </ul>
                 </div>
             </div>

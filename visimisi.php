@@ -38,11 +38,11 @@
             <div class="col-md-3">
                 <div class="sidebar">
                     <ul>
-                        <li><a href="about.php#tentang-kami">Profile</a></li>
-                        <li><a href="about.php#sejarah">Visi dan Misi</a></li>
-                        <li><a href="about.php#bidang-usaha">Produk Kami</a></li>
-                        <li><a href="about.php#kontak-kami">Kontak Kami</a></li>
-                        <li><a href="about.php#about-us">About Us</a></li>
+                    <li><a href="Profile.php">Profile</a></li>
+                        <li><a href="visimisi.php">Visi dan Misi</a></li>
+                        <li><a href="produk.php">Produk Kami</a></li>
+                        <li><a href="kontak.php">Kontak Kami</a></li>
+                        <li><a href="aboutus.php">About Us</a></li>
                     </ul>
                 </div>
             </div>

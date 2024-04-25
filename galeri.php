@@ -41,18 +41,18 @@
             <div class="col-md-3">
                 <div class="sidebar">
                     <ul>
-                        <li><a href="#tentang-kami">Profile</a></li>
-                        <li><a href="#pengalaman-perusahaan">Visi dan Misi</a></li>
-                        <li><a href="#kelebihan-perusahaan">Produk Kami</a></li>
-                        <li><a href="#pengalaman-perusahaan">Kontak Kami</a></li>
-                        <li><a href="#kelebihan-perusahaan">About Us</a></li>
+                    <li><a href="Profile.php">Profile</a></li>
+                        <li><a href="visimisi.php">Visi dan Misi</a></li>
+                        <li><a href="produk.php">Produk Kami</a></li>
+                        <li><a href="kontak.php">Kontak Kami</a></li>
+                        <li><a href="aboutus.php">About Us</a></li>
                     </ul>
                 </div>
             </div>
             <!-- Content -->
             <div class="col-md-9">
                 <div class="col-md-8 offset-md-2">
-                <center><h2>galeri Kami</h2></center>
+                <center><h2>Galeri Kami</h2></center>
                 <div class="card-columns">
                         <!-- Profile -->
                         <div class="card">

@@ -18,8 +18,8 @@
         <div class="card-body">
           <form action="proses_buat_akun.php" method="POST">
             <div class="mb-3">
-              <label for="nama" class="form-label">Nama</label>
-              <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan Nama">
+              <label for="nama" class="form-label">Username</label>
+              <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan Username">
             </div>
             <div class="mb-3">
               <label for="notelp" class="form-label">Nomor Telepon</label>

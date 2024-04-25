@@ -14,13 +14,16 @@
       <div class="card">
         <div class="card-header">
           <h3 class="text-center">Login</h3>
-            <center><img src="logo.jpg" alt="" style="border-radius: 80px; height:100px" ></center>
+            <!-- <center><img src="logo.jpg" alt="" style="border-radius: 80px; height:100px" ></center> -->
+            <div class="mx-auto text-center">
+              <img src="logo.jpg" alt="" style="border-radius: 80px; height:100px" >
+            </div>
         </div>
         <div class="card-body">
           <form action="proses_login.php" method="POST">
             <div class="mb-3">
               <label for="username" class="form-label">Username</label>
-              <input type="text" class="form-control" id="username" name="nama" placeholder="Enter username">
+              <input type="text" class="form-control" id="username" name="nama" placeholder="Masukkan username">
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">Password</label>
